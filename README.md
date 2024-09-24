@@ -1,4 +1,4 @@
-# Tilbudsberegner for Medegaard Grafisk
+# Tilbudsberegner
 
 Dette projekt er en webbaseret tilbudsberegner udviklet til Medegaard Grafisk, der gør det muligt at generere tilbud baseret på produktdata som størrelser, trykmetoder og antal. Beregneren inkluderer desuden muligheder for at kopiere tilbuddet til mail eller eksportere det som PDF.
 
