@@ -30,20 +30,20 @@ Følg disse trin for at køre projektet lokalt:
 3. Installer nødvendige afhængigheder: Du skal have adgang til html2pdf.js, som allerede er linket i projektet. Ingen yderligere installation kræves.
 
 ## Brug
-Åbn index.html i din browser for at interagere med tilbudsberegneren.
-Udfyld formularen med kundens navn, produktinformation, pris, antal, ønsket fortjeneste, trykoplysninger og fragtomkostninger.
-Klik på "Beregn Tilbud" for at generere et tilbud. Det vises i højre side af skærmen.
-Brug knapperne "Kopiér Tilbud til Mail" eller "Eksporter til PDF" for at dele eller gemme tilbuddet.
+1. **Åbn `index.html`** i din browser for at interagere med tilbudsberegneren.
+2. Udfyld formularen med kundens navn, produktinformation, pris, antal, ønsket fortjeneste, trykoplysninger og fragtomkostninger.
+3. Klik på "Beregn Tilbud" for at generere et tilbud. Det vises i højre side af skærmen.
+4. Brug knapperne "Kopiér Tilbud til Mail" eller "Eksporter til PDF" for at dele eller gemme tilbuddet.
 
 ## Struktur
 Projektet er struktureret på følgende måde:
+```bash
 tilbudsberegner/
 ├── index.html         # Hovedfilen der indeholder grænsefladen
 ├── styles.css         # CSS filen der håndterer layout og styling
 ├── script.js          # JavaScript filen der håndterer beregninger og dynamisk opdatering
 ├── README.md          # Denne README-fil
 ├── LICENSE            # Licensfilen (MIT License)
-
 
 ## Bidrag
 Hvis du ønsker at bidrage til dette projekt, kan du gøre følgende:
