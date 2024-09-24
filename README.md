@@ -38,11 +38,11 @@ Brug knapperne "Kopiér Tilbud til Mail" eller "Eksporter til PDF" for at dele e
 ## Struktur
 Projektet er struktureret på følgende måde:
 tilbudsberegner/
-├── index.html         # Hovedfilen der indeholder grænsefladen
-├── styles.css         # CSS filen der håndterer layout og styling
-├── script.js          # JavaScript filen der håndterer beregninger og dynamisk opdatering
-├── README.md          # Denne README-fil
-├── LICENSE            # Licensfilen (MIT License)
+   ├── index.html   # Hovedfilen der indeholder grænsefladen
+   ├── styles.css   # CSS filen der håndterer layout og styling
+   ├── script.js   # JavaScript filen der håndterer beregninger og dynamisk opdatering
+   ├── README.md   # Denne README-fil
+   ├── LICENSE   # Licensfilen (MIT License)
 
 ## Bidrag
 Hvis du ønsker at bidrage til dette projekt, kan du gøre følgende:
