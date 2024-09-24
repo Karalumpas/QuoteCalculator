@@ -44,7 +44,6 @@ tilbudsberegner/
 ├── README.md          # Denne README-fil
 ├── LICENSE            # Licensfilen (MIT License)
 
-
 ## Bidrag
 Hvis du ønsker at bidrage til dette projekt, kan du gøre følgende:
 
