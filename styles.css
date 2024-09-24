@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0d5a7f; /* Virksomhedens blå farve */
+}
+
+.input-group, .size-section, .print-section {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0d5a7f;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border-color: #0d5a7f;
+}
+
+.calculate-btn, .copy-btn, .pdf-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d5a7f; /* Virksomhedens blå farve */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.calculate-btn:hover, .copy-btn:hover, .pdf-btn:hover {
+    background-color: #0b4f70;
+}
+
+.remove-btn {
+    background-color: #fa803f; /* Virksomhedens orange farve */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background-color: #e67339;
+}
+
+.full-offer, .internal-details {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.full-offer p, .internal-details p {
+    margin: 10px 0; /* Øget mellemrum mellem linjer */
+    line-height: 1.5; /* Øget linjeafstand */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #0d5a7f; /* Virksomhedens blå farve */
+    color: #fff;
+    text-align: left;
+}
+
+.total-row td {
+    font-weight: bold;
+}
+
+.highlight {
+    color: #fa803f; /* Virksomhedens orange farve */
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .calculate-btn, .copy-btn, .pdf-btn {
+        font-size: 14px;
+    }
+}
+
+/* Stil for farvesektioner */
+.color-section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.color-section h3 {
+    margin-top: 0;
+    color: #0d5a7f;
+}
+
+.color-section h4 {
+    margin-top: 20px;
+    color: #0d5a7f;
+}
+
+.error {
+    border: 2px solid red;
+}
