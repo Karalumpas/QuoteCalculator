@@ -44,6 +44,7 @@ tilbudsberegner/
 ├── script.js          # JavaScript filen der håndterer beregninger og dynamisk opdatering
 ├── README.md          # Denne README-fil
 ├── LICENSE            # Licensfilen (MIT License)
+```
 
 ## Bidrag
 Hvis du ønsker at bidrage til dette projekt, kan du gøre følgende:
