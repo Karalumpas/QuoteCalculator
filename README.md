@@ -26,3 +26,5 @@ Følg disse trin for at køre projektet lokalt:
    ```bash
    git clone https://github.com/din-bruger/tilbudsberegner.git
    cd tilbudsberegner
+2. Åbn projektet i din foretrukne editor og sørg for, at alle filer (HTML, CSS og JS) er korrekt forbundet.
+3. Installer nødvendige afhængigheder: Du skal have adgang til html2pdf.js, som allerede er linket i projektet. Ingen yderligere installation kræves.
